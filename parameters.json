@@ -1,0 +1,47 @@
+{
+    "num_epochs": 500,
+    "inputsize": [
+        80,
+        144,
+        144
+    ],
+    "num_parallel_calls": 2,
+    "datadir": "/home/d1266/no_backup/d1266/",
+    "disc_fsize": 2,
+    "batchnorm": true,
+    "lr_gen": 0.001,
+    "one_sided_label_smoothing": false,
+    "l2_reg": 0.0,
+    "weight_l1": 5.0,
+    "disc_batchnorm": [
+        false,
+        true
+    ],
+    "flip_labels_probability": 0.2,
+    "buffer_size": 1,
+    "disc_spectral": true,
+    "eval_data_size": 17,
+    "weight_adv": 1.0,
+    "lr_disc": 0.001,
+    "gen_iterations_per_step": 1,
+    "instance_noise": true,
+    "train_data_size": 119,
+    "discriminator_model": "patchgan",
+    "shuffle": false,
+    "weight_mce": 5.0,
+    "random_seed": 230,
+    "disc_filters": [
+        64,
+        128
+    ],
+    "generator_model": "unet",
+    "disc_strides": [
+        2,
+        1
+    ],
+    "gpu_disc": "/device:GPU:1",
+    "gpu_gen": "/device:GPU:0",
+    "req_num_gpus": 2,
+    "eps": 1e-08,
+    "batch_size": 7
+}
